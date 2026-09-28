@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/shiphead",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ship structured JSON head payloads without a heavyweight toolkit.",
+  "bin": {
+    "shiphead": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/shiphead.git"
+  },
+  "homepage": "https://theworker02.github.io/shiphead/",
+  "keywords": [
+    "ship",
+    "head",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
